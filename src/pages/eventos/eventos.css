@@ -1,0 +1,61 @@
+#grdh{
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    flex-direction: column;
+}
+#grd{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#headerGrd{
+    display: flex; 
+    border: 1px solid blue;
+}
+#contentGrd{
+    display: flex; 
+    border-bottom: 1px solid wheat;
+    height: 25px;
+}
+#headerGrd div{
+    background-color: white;
+    border: 1px solid pink;
+    text-align: center;
+}
+#headerGrd div p{
+    color: black;
+}
+#nomeGrdh{
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+#idGrdh{
+    width: 90px;
+    overflow: hidden;
+    text-align: center;
+}
+#ingressosGrdh{
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+#lixeiraGrdh{
+    text-align: left;
+    width: 50px;
+} 
+#dataGrd, #dataGrdh{ 
+    text-align: left;
+    width: 140px;
+}
+#contentGrd div p{
+    font-size: 11px;
+}
+#contentGrd div{
+    overflow: hidden;
+}
+#localGrd, #localGrdh{
+    width: 100px;
+} 

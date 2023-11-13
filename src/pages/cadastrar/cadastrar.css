@@ -1,0 +1,60 @@
+.title{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+}
+#divCad{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.subt{
+    padding: 10px 0px;
+    text-align: center;
+}
+.inpCad{
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+} 
+#absolutebtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+}
+#divImg{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: space-around;
+
+}
+#divInpImg{
+    width: 100px; 
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#pImg{
+    color: #000;
+    font-size: 12px;
+}
+#inpImg{
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+}
+#img{
+    width: 100px;
+    height: 100px;
+}
