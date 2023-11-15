@@ -40,6 +40,7 @@ export default function Cadastrar() {
         id,
         nome,
         local,
+        foto: image.name,
         data, 
         ingressos: 0,
       });
@@ -53,6 +54,7 @@ export default function Cadastrar() {
 
   const handleImageChange = (event) => {
     const file = event.target.files[0];
+    console.log(file)
     if (file) {
       const reader = new FileReader();
       reader.onload = (e) => {
