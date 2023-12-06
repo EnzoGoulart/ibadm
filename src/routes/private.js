@@ -13,8 +13,7 @@ export default function Private({ children }) {
             .then(() => {  
                 return children;
             }).catch(e => {  
-                navigate("/");
-                return 
+                return navigate("/");
             })
         }
         

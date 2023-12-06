@@ -18,6 +18,13 @@
     height: 40px;
     padding-left: 20px;
 } 
+.inpCadG{
+    width: 180px;
+    height: 140px;
+    padding: 20px; 
+    border-radius: 12px;
+    resize: none;
+}  
 #absolutebtn{
     width: 100%;
     display: flex;
@@ -29,6 +36,7 @@
     width: 200px;
     height: 60px;
     font-size: 22px;
+    margin-bottom: 40px;
 }
 #divImg{
     display: flex;

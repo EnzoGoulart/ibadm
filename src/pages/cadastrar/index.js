@@ -17,8 +17,8 @@ export default function Cadastrar() {
   const [url, setUrl] = useState("");
   const [nome, setNome] = useState("");
   const [local, setLocal] = useState("");
-  const [data, setData] = useState("");
-  const [dado, setDado] = useState([]);
+  const [data, setData] = useState(""); 
+  const [descri, setDescri] = useState('');
 
   const CadastrarEvento = async () => {
     try {
@@ -43,6 +43,7 @@ export default function Cadastrar() {
         foto: image.name,
         data,
         ingressos: 0,
+        descri
       });
 
       toast.success("Cadastrado com sucesso!");
@@ -86,6 +87,14 @@ export default function Cadastrar() {
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         />
+        <p className="subt">Descricao</p>
+        <div className="setDescriCss">
+          <textarea
+          className="inpCadG"
+          value={descri}
+          onChange={(e) => setDescri(e.target.value)}
+         />
+        </div>
         <p className="subt">Local</p>
         <input
           className="inpCad"
