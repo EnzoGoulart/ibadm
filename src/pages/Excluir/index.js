@@ -8,7 +8,7 @@ export default function Excluir() {
     async function excluirEvento(){ 
         try {
             const eventosRef = collection(db, "eventos"); 
-            const q = query(eventosRef, where("id", "==", id));
+            const q = query(eventosRef, where("id", "==", Number(id)));
             const querySnapshot = await getDocs(q);  
             if (!querySnapshot.empty) { 
               querySnapshot.forEach(async (doc) => { 
